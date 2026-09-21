@@ -1,0 +1,1 @@
+# Rocket League ME6 Server Blocker
