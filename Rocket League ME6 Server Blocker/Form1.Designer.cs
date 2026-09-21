@@ -46,9 +46,9 @@
             // 
             // blockServerToggleButton
             // 
-            blockServerToggleButton.Location = new Point(34, 54);
+            blockServerToggleButton.Location = new Point(28, 65);
             blockServerToggleButton.Name = "blockServerToggleButton";
-            blockServerToggleButton.Size = new Size(107, 35);
+            blockServerToggleButton.Size = new Size(126, 41);
             blockServerToggleButton.TabIndex = 0;
             blockServerToggleButton.Text = "Block Server";
             blockServerToggleButton.UseVisualStyleBackColor = true;
@@ -58,7 +58,7 @@
             // 
             onlyBlockRocketCheckBox.AutoSize = true;
             onlyBlockRocketCheckBox.ForeColor = SystemColors.ControlLightLight;
-            onlyBlockRocketCheckBox.Location = new Point(156, 60);
+            onlyBlockRocketCheckBox.Location = new Point(174, 76);
             onlyBlockRocketCheckBox.Name = "onlyBlockRocketCheckBox";
             onlyBlockRocketCheckBox.Size = new Size(200, 24);
             onlyBlockRocketCheckBox.TabIndex = 1;
@@ -86,28 +86,28 @@
             // resetToolStripMenuItem
             // 
             resetToolStripMenuItem.Name = "resetToolStripMenuItem";
-            resetToolStripMenuItem.Size = new Size(224, 26);
+            resetToolStripMenuItem.Size = new Size(204, 26);
             resetToolStripMenuItem.Text = "Reset";
             resetToolStripMenuItem.Click += menuDropdown_reset_Click;
             // 
             // resetPathToolStripMenuItem
             // 
             resetPathToolStripMenuItem.Name = "resetPathToolStripMenuItem";
-            resetPathToolStripMenuItem.Size = new Size(224, 26);
+            resetPathToolStripMenuItem.Size = new Size(204, 26);
             resetPathToolStripMenuItem.Text = "Reset File Path";
             resetPathToolStripMenuItem.Click += menuDropdown_resetFilePath_Click;
             // 
             // resetRulesToolStripMenuItem
             // 
             resetRulesToolStripMenuItem.Name = "resetRulesToolStripMenuItem";
-            resetRulesToolStripMenuItem.Size = new Size(224, 26);
+            resetRulesToolStripMenuItem.Size = new Size(204, 26);
             resetRulesToolStripMenuItem.Text = "Delete Rules";
             resetRulesToolStripMenuItem.Click += menuDropdown_deleteRules_Click;
             // 
             // deleteSaveFilesToolStripMenuItem
             // 
             deleteSaveFilesToolStripMenuItem.Name = "deleteSaveFilesToolStripMenuItem";
-            deleteSaveFilesToolStripMenuItem.Size = new Size(224, 26);
+            deleteSaveFilesToolStripMenuItem.Size = new Size(204, 26);
             deleteSaveFilesToolStripMenuItem.Text = "Delete Save Files";
             deleteSaveFilesToolStripMenuItem.Click += menuDropdown_deleteAll_Click;
             // 
@@ -116,7 +116,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
-            ClientSize = new Size(361, 130);
+            ClientSize = new Size(392, 155);
             Controls.Add(menuDropDown);
             Controls.Add(onlyBlockRocketCheckBox);
             Controls.Add(blockServerToggleButton);
